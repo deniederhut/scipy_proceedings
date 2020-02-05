@@ -1,0 +1,226 @@
+{
+  "lightning": [
+    {
+      "authors": [
+        "The Tabula Muris consortium",
+        "Angela Oliveira Pisco",
+        "Nicholas Schaum",
+        "Aaron McGeever",
+        "Jim Karkanias",
+        "Norma F. Neff",
+        "Spyros Darmanis",
+        "Tony Wyss-Coray",
+        "Stephen R. Quake"
+      ],
+      "slide_id": "aopisco",
+      "description": "Tabula Muris Senis is a single cell transcriptomic atlas across a mouse's life span that reveals new molecular info on aging. This presentations illustrates how the Python ecosystem makes such a scientific expedition possible.",
+      "zenodo_url": "https://zenodo.org/record/3346125",
+      "doi": "10.25080/Majora-7ddc1dd1-023",
+      "title": "The Mouse Aging Cell Atlas: cell biology meets Python"
+    },
+    {
+      "authors": [
+        "David Nicholson"
+      ],
+      "slide_id": "auto-annotate-vocals-vak",
+      "description": "lightning talk about automated annotation of vocalizations with neural net TweetyNet and the vak and crowsetta libraries",
+      "zenodo_url": "https://zenodo.org/record/3346101",
+      "doi": "10.25080/Majora-7ddc1dd1-024",
+      "title": "Automated Annotation of Animal Vocalizations"
+    },
+    {
+      "authors": [
+        "Kyle E. Niemeyer",
+        "Jeffrey Carver",
+        "Karthik Ram"
+      ],
+      "slide_id": "niemeyer-URSSI-winter-school",
+      "description": "The US Research Software Sustainability Institute (URSSI) is offering a pilot 'summer' school in December 2019, to teach skills and best practices for developing research software. Apply now!",
+      "zenodo_url": "https://zenodo.org/record/3346096",
+      "doi": "10.25080/Majora-7ddc1dd1-025",
+      "title": "US Research Software Sustainability Institute (URSSI) Pilot 'Summer' School"
+    }
+  ],
+  "tools": [
+    {
+      "authors": [
+        "Matt Haberland"
+      ],
+      "slide_id": "scipy_library",
+      "description": "Besides a conference, 'SciPy' is also a library that provides fundamental building blocks for modeling and solving scientific problems. SciPy includes algorithms for optimization, interpolation, statistics, fast Fourier transforms, and many other classes of problems; it also provides specialized data structures, such as k-dimensional trees and sparse matrices. This presentation summarizes the current status and future plans of the SciPy library.",
+      "zenodo_url": "https://zenodo.org/record/3346092",
+      "doi": "10.25080/Majora-7ddc1dd1-022",
+      "title": "SciPy: not just a conference!"
+    }
+  ],
+  "posters": [
+    {
+      "authors": [
+        "Jackson Anderson",
+        "Dana Weinstein"
+      ],
+      "slide_id": "PyMeasRF",
+      "description": "This poster introduces a Test and Measurement (T&M)-related python package that has been written to enable RF-related T&M automation and speed electrical test development time. Presented are two case studies that highlight the ways in which the package has been used at Purdue to increase productivity and enable collecting and visualizing device data at scale. Also provided is an overview of the package structure and a discussion of the challenges faced in developing packages for the T&M ecosystem.",
+      "zenodo_url": "https://zenodo.org/record/3346201",
+      "doi": "10.25080/Majora-7ddc1dd1-014",
+      "title": "PyMeasRF: Automating RF Device Measurements Using Python"
+    },
+    {
+      "authors": [
+        "Gavin Wiggins",
+        "Srikanth Allu",
+        "Hsin Wang"
+      ],
+      "slide_id": "ecm-battery",
+      "description": "Electric vehicles are poised to reduce fuel consumption and carbon emissions around the world. To ensure efficient operation of the battery pack, an effective battery management system must be implemented. Equivalent circuit models utilize a lumped battery modeling approach that relies on a small parameter space. The simplicity of these models offers near real-time results with good enough accuracy for battery management systems. In this presentation, we will discuss the use of several Python packages such as Pandas, NumPy, SciPy, and Matplotlib for creating equivalent circuit models.",
+      "zenodo_url": "https://zenodo.org/record/3346199",
+      "doi": "10.25080/Majora-7ddc1dd1-015",
+      "title": "A Pythonic Equivalent Circuit Model for Battery Research"
+    },
+    {
+      "authors": [
+        "Nadia Tahiri",
+        "Bogdan Mazoure",
+        "Vladimir Makarenkov"
+      ],
+      "slide_id": "nadia_tahiri",
+      "description": "A grocery list is an integral part of the shopping experience of many consumers. First, we propose a new machine learning model written in Python 3 that predicts which grocery products the consumer will buy again or will try to buy for the first time, and in which store(s) the purchase will be made. Second, we introduce a smart shopping template to provide consumers with a personalized weekly shopping list based on their shopping history and known preferences. As the explanatory variables, we used available grocery shopping history, weekly product promotion information for a given region, as well as the product price statistics.",
+      "zenodo_url": "https://zenodo.org/record/3346195",
+      "doi": "10.25080/Majora-7ddc1dd1-016",
+      "title": "An intelligent shopping list based on the application of partitioning and machine learning algorithms"
+    },
+    {
+      "authors": [
+        "Pi-Yueh Chuang",
+        "Tracy Thorleifson",
+        "Lorena A. Barba"
+      ],
+      "slide_id": "oil-overland-flow",
+      "description": "We expanded GeoClaw, a shallow-water solver, for computing overland hydrocarbon flows, and developed a Python workflow for risk analysis of pipeline ruptures on Microsoft Azure cloud resources. The added functionality in GeoClaw includes rupture-point inflows, evaporation, Darcy-Weisbach friction, and in-land hydrologic features. The Python workflow automates running and controlling simulations on Azure clusters. The goal is performing analysis on hundreds or thousands of potential rupture points along a pipeline. We also developed a Python toolbox that integrates GeoClaw and the Azure workflow with ArcGIS Pro, and an equivalent Jupyter-based workflow, while Jupyter notebooks also serve as automatic reports.",
+      "zenodo_url": "https://zenodo.org/record/3346190",
+      "doi": "10.25080/Majora-7ddc1dd1-017",
+      "title": "Python Workflow for High-Fidelity Modeling of Overland Hydrocarbon Flows with GeoClaw and Cloud Computing"
+    },
+    {
+      "authors": [
+        "Henry Senyondo",
+        "Andrew Zhang",
+        "Ethan P. White"
+      ],
+      "slide_id": "pydataweaver",
+      "description": "Combine publicly available data into ready-to-analyze datasets. Most research questions require integrating multiple datasets. Researchers typically have to manually create these combined datasets using databases, programming languages and GIS systems. The PyDataWeaver automates the task of integrating multiple data sources to create new comprehensive datasets using JSON based a data integration standard.",
+      "zenodo_url": "https://zenodo.org/record/3346188",
+      "doi": "10.25080/Majora-7ddc1dd1-018",
+      "title": "The PyDataWeaver: A data integration platform"
+    },
+    {
+      "authors": [
+        "Matthew Feickert",
+        "Lukas Heinrich",
+        "Giordon Stark",
+        "Kyle Cranmer"
+      ],
+      "slide_id": "pyhf",
+      "description": "In experimental high energy physics, the common HistFactory p.d.f. template and fitting tools have only existed within the C++ based ROOT framework developed and maintained by CERN. pyhf is a pure-Python implementation of that statistical model for multi-bin histogram-based analysis with interval estimation based on 'Asymptotic formulae for likelihood-based tests of new physics' [arxiv:1007.1727]. pyhf supports modern computational graph libraries such as TensorFlow and PyTorch as computational backends in order to make use of features such as auto-differentiation and GPU acceleration and defines models with an expressive JSON schema.",
+      "zenodo_url": "https://zenodo.org/record/3346186",
+      "doi": "10.25080/Majora-7ddc1dd1-019",
+      "title": "pyhf: a pure Python statistical fitting library for High Energy Physics with tensors and autograd"
+    },
+    {
+      "authors": [
+        "Gavin Wiggins"
+      ],
+      "slide_id": "pyrolysis-reactor",
+      "description": "Fast pyrolysis is a leading candidate technology for the thermochemical conversion of solid biomass into liquid bio-oil which can be used for biofuel and high-value chemical production. Bio-oil is commonly generated in fluidized, circulating, or entrained flow reactor systems where optimal reactor design and control are crucial to achieving commercially viable products. In this presentation, we will discuss the use of several Python packages such as Pandas, NumPy, SciPy, Matplotlib, and Chemics for creating reactor models for biomass fast pyrolysis research.",
+      "zenodo_url": "https://zenodo.org/record/3346184",
+      "doi": "10.25080/Majora-7ddc1dd1-01a",
+      "title": "Using Python to Model Biomass Pyrolysis Reactors"
+    },
+    {
+      "authors": [
+        "David R Hagen",
+        "Nikolay Mayorov"
+      ],
+      "slide_id": "scipy-ode",
+      "description": "In SciPy 1.0, a new interface for solving ODE initial value problems was added to scipy.integrate. The solve_ivp function and OdeSolver base class provide additional features and greater extensibility over the previous odeint function and ode base class.",
+      "zenodo_url": "https://zenodo.org/record/3346180",
+      "doi": "10.25080/Majora-7ddc1dd1-01b",
+      "title": "Class-based ODE solvers and event detection in SciPy"
+    }
+  ],
+  "slides": [
+    {
+      "authors": [
+        "Peter Kerpedjiev",
+        "Nezar Abdennur",
+        "Fritz Lekschas"
+      ],
+      "slide_id": "higlass",
+      "description": "We describe how HiGlass tackles the challenges associated with collaborative visual exploration of multiscale scientific data.",
+      "zenodo_url": "https://zenodo.org/record/3346228",
+      "doi": "10.25080/Majora-7ddc1dd1-01c",
+      "title": "To a Billion and Beyond: How to Visually Explore, Compare and Share Large Quantitative Datasets with HiGlass"
+    },
+    {
+      "authors": [
+        "Ralf Gommers",
+        "Sebastian Berg",
+        "Matti Picus",
+        "Tyler Reddy",
+        "Stéfan van der Walt",
+        "Charles Harris"
+      ],
+      "slide_id": "inside_numpy",
+      "description": "Over the past year, and for the first time since its creation, NumPy has been operating with dedicated funding. NumPy developers think it has invigorated the project and its community. But is that true, and how can we know?    We will give an overview of the actions we've taken, both successful and unsuccessful, to improve sustainability of the NumPy project and its community. We will draw some lessons from a first year of grant-funded activity, discuss key obstacles faced, attempt to quantify what we need to operate sustainably, and present a vision for the project and how we plan to realize it.",
+      "zenodo_url": "https://zenodo.org/record/3346222",
+      "doi": "10.25080/Majora-7ddc1dd1-01d",
+      "title": "Inside NumPy: Preparing for the next decade"
+    },
+    {
+      "authors": [
+        "Anderson Banihirwe",
+        "Matthew Rocklin",
+        "Joseph Hamman",
+        "Julia Kent",
+        "Kevin Paul"
+      ],
+      "slide_id": "interactive-supercomputing-with-dask-jupyter",
+      "description": "This talk demonstrates how to use Dask and Jupyter on large high-performance computing (HPC) systems to scale and accelerate large interactive data analysis tasks -- effectively turning HPC systems into interactive big-data platforms. We will introduce dask-jobqueue which allows users to seamlessly deploy and scale dask on HPC clusters that use a variety of job queuing systems such as PBS, Slurm, SGE, and LSF. We will also introduce dask-mpi, a Python package that makes deploying Dask easy from within a distributed MPI environment.",
+      "zenodo_url": "https://zenodo.org/record/3346217",
+      "doi": "10.25080/Majora-7ddc1dd1-01e",
+      "title": "Turning HPC Systems into Interactive Data Analysis Platforms using Jupyter and Dask"
+    },
+    {
+      "authors": [
+        "Shammamah Hossain"
+      ],
+      "slide_id": "shammamah_hossain_dashbio",
+      "description": "Dash Bio is a suite of bioinformatics components designed to work with Plotly's Dash. This talk contains information about Plotly and Dash, a subset of the Dash Bio components, and a small section related to the dash-bio-utils library, which contains a set of parsing scripts for popular bioinformatics databases.",
+      "zenodo_url": "https://zenodo.org/record/3346213",
+      "doi": "10.25080/Majora-7ddc1dd1-01f",
+      "title": "Visualization of Bioinformatics Data with Dash Bio"
+    },
+    {
+      "authors": [
+        "Laurie A. Stephey",
+        "Rollin C. Thomas",
+        "Stephen J. Bailey"
+      ],
+      "slide_id": "stephey",
+      "description": "A case study in profiling and optimizing an image processing application for NERSC supercomputer systems",
+      "zenodo_url": "https://zenodo.org/record/3346209",
+      "doi": "10.25080/Majora-7ddc1dd1-020",
+      "title": "Optimizing Python-Based Spectroscopic Data Processing on NERSC Supercomputers"
+    },
+    {
+      "authors": [
+        "David Nicholson"
+      ],
+      "slide_id": "visual-search-tensorflow",
+      "description": "A presentation about using open-source software to replicate and build models of how the brain performs visual search tasks",
+      "zenodo_url": "https://zenodo.org/record/3346203",
+      "doi": "10.25080/Majora-7ddc1dd1-021",
+      "title": "Building and Replicating Models of Visual Search Behavior with Tensorflow and the Scientific Python Stack"
+    }
+  ]
+}

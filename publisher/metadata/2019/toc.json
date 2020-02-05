@@ -1,0 +1,951 @@
+{
+  "toc": [
+    {
+      "authors": "Eric Van Dusen, Anthony Suen, Alan Liang, Amal Bhatnagar",
+      "keywords": "data science education, autograding, undergraduate institutions",
+      "pages": 4,
+      "author_institution": [
+        "University of California, Berkeley",
+        "University of California, Berkeley",
+        "University of California, Berkeley",
+        "University of California, Berkeley"
+      ],
+      "abstract": [
+        "We outline a synthesis of strategies created in collaboration with 35+\ncolleges and universities on how to advance undergraduate data science\neducation on a national scale. The four core pillars of this strategy\ninclude the integration of data science education across all domains,\nestablishing adoptable and scalable cyberinfrastructure, applying data\nscience to non-traditional domains, and incorporating ethical content\ninto data science curricula. The paper analyzes UC Berkeley’s method of\naccelerating the national advancement of data science education in\nundergraduate institutions and examines the recent innovations in\nautograders for assignments which helps scale such programs. The\nconversation of ethical practices with data science are key to mitigate\nsocial issues arising from computing, such as incorporating anti-bias\nalgorithms. Following these steps will form the basis of a scalable data\nscience education system that prepares undergraduate students with\nanalytical skills for a data-centric world."
+      ],
+      "copyright_holder": "Eric Van Dusen et al.",
+      "paper_id": "Amal_Bhatnagar",
+      "doi": "10.25080/Majora-7ddc1dd1-000",
+      "author_institution_map": {
+        "Eric Van Dusen": [
+          "University of California, Berkeley"
+        ],
+        "Alan Liang": [
+          "University of California, Berkeley"
+        ],
+        "Anthony Suen": [
+          "University of California, Berkeley"
+        ],
+        "Amal Bhatnagar": [
+          "University of California, Berkeley"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Eric Van Dusen",
+        "Anthony Suen",
+        "Alan Liang",
+        "Amal Bhatnagar"
+      ],
+      "author_email": [
+        "ericvd@berkeley.edu",
+        "anthonysuen@berkeley.edu",
+        "alanliang@berkeley.edu",
+        "amalbhatnagar@berkeley.edu"
+      ],
+      "bibliography": "",
+      "page": {
+        "start": 1,
+        "stop": 4
+      },
+      "title": "Accelerating the Advancement of Data Science Education"
+    },
+    {
+      "authors": "Hongsup Shin",
+      "keywords": "hardware verification, machine learning, outlier detection, deployment, retraining, model evaluation",
+      "pages": 8,
+      "author_institution": [
+        "Arm Research"
+      ],
+      "abstract": [
+        "When designing microprocessors, engineers must verify whether the proposed design, defined in hardware description language, does what is intended. During this verification process, engineers run simulation tests and can fix bugs if the tests have failed. Due to the complexity of the design, the baseline approach is to provide random stimuli to verify random parts of the design. However, this method is time-consuming and redundant especially when the design becomes mature and thus failure rate is low. To increase efficiency and detect failures faster, it is possible to train machine learning models by using previously run tests, and assess the likelihood of failure of new test candidates before running them. This way, instead of running random tests agnostically, engineers use the model prediction on a new set of test candidates and run a subset of them (i.e., \\textquotedbl{}filtering\\textquotedbl{} the tests) that are more likely to fail. Due to the severe imbalance (1\\% failure rate), I trained an ensemble of supervised (classification) and unsupervised (outlier detection) models and used the union of the prediction from both models to catch more failures. The tool has been deployed in an internal high performance computing (HPC) cluster early this year, as a complementary workflow which does not interfere with the existing workflow. After the deployment, I found performance instability in post-deployment performance and ran various experiments to address the issue, such as by identifying the effect of the randomness in the test generation process. In addition to introducing the relatively new data-driven approach in hardware design verification, this study also discusses the details of post-deployment evaluation such as retraining, and working around real-world constraints, which are sometimes not discussed in machine learning and data science research."
+      ],
+      "copyright_holder": "Hongsup Shin.",
+      "paper_id": "Hongsup_Shin",
+      "doi": "10.25080/Majora-7ddc1dd1-001",
+      "author_institution_map": {
+        "Hongsup Shin": [
+          "Arm Research"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Hongsup Shin"
+      ],
+      "author_email": [
+        "hongsup.shin@arm.com"
+      ],
+      "bibliography": "",
+      "page": {
+        "start": 5,
+        "stop": 12
+      },
+      "title": "Case study: Real-world machine learning application for hardware failure detection"
+    },
+    {
+      "authors": "Kyle Logue, Esteban Valles, Andres Vila, Alex Utter, Darren Semmen, Eugene Grayver, Sebastian Olsen, Donna Branchevsky",
+      "keywords": "modulation, feature extraction, neural networks, machine learning, decision\ntrees, wireless communication, signals intelligence, feature importance",
+      "pages": 8,
+      "author_institution": [
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation"
+      ],
+      "abstract": [
+        "Automatic modulation classification is a challenging problem with multiple\napplications including cognitive radio and signals intelligence. Most of the\nexisting efforts to solve this problem are only applicable when the signal to\nnoise ratio (SNR) is high and/or long observations of the signal are available.\nRecent work has focused on applying shallow and deep machine learning (ML) to\nthis problem. Feature generation, where raw signal information is transformed\nprior to attempting classification is a key part of this process. A big question\nthat researchers face is whether to let the deep learning system infer the\nrelevant features or build expert features based on expected signal\ncharacteristics. In this paper, we present novel signal feature extraction\nmethods for use in signal classification via ML. The deep learning and combined\napproaches are discussed in a simultaneous publication. Expert features were\nutilized via ensemble leaning and shallow neural networks to win the Army Rapid\nCapability Office (RCO) 2018 Signal Classification Challenge. The features\ninclude both standard statistical measurements such as variance and kurtosis, as\nwell as measurements tailored for specific waveform families. We discuss the\nbest statistical descriptors along with a ranked list of signal features and\ndiscuss individual feature importance. We then demonstrate our implementation of\nthese features and discuss effectiveness in estimating different modulation\nclasses. The methods discussed when combined with deep learning are capable of\ncorrectly classifying waveforms at -10 dB SNR with over 63\\% accuracy and signals\nat +10 dB SNR with over 95\\% accuracy from an Army RCO provided training set."
+      ],
+      "copyright_holder": "The Aerospace Corporation",
+      "paper_id": "aero_ef_logue",
+      "doi": "10.25080/Majora-7ddc1dd1-002",
+      "author_institution_map": {
+        "Alex Utter": [
+          "The Aerospace Corporation"
+        ],
+        "Andres Vila": [
+          "The Aerospace Corporation"
+        ],
+        "Donna Branchevsky": [
+          "The Aerospace Corporation"
+        ],
+        "Sebastian Olsen": [
+          "The Aerospace Corporation"
+        ],
+        "Kyle Logue": [
+          "The Aerospace Corporation"
+        ],
+        "Eugene Grayver": [
+          "The Aerospace Corporation"
+        ],
+        "Esteban Valles": [
+          "The Aerospace Corporation"
+        ],
+        "Darren Semmen": [
+          "The Aerospace Corporation"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Kyle Logue",
+        "Esteban Valles",
+        "Andres Vila",
+        "Alex Utter",
+        "Darren Semmen",
+        "Eugene Grayver",
+        "Sebastian Olsen",
+        "Donna Branchevsky"
+      ],
+      "author_email": [
+        "kyle.logue@aero.org",
+        "esteban.l.valles@aero.org",
+        "andres.i.vilacasado@aero.org",
+        "alexander.c.utter@aero.org",
+        "darren.l.semmen@aero.org",
+        "eugene.grayver@aero.org",
+        "sebastian.olsen@aero.org",
+        "donna.branchevsky@aero.org"
+      ],
+      "bibliography": "",
+      "page": {
+        "start": 13,
+        "stop": 20
+      },
+      "title": "Expert RF Feature Extraction to Win the Army RCO AI Signal Classification Challenge"
+    },
+    {
+      "authors": "Andres Vila, Donna Branchevsky, Kyle Logue, Sebastian Olsen, Esteban Valles, Darren Semmen, Alex Utter, Eugene Grayver",
+      "keywords": "modulation classification, neural networks, deep learning, machine learning,\nensemble learning, wireless communications, signals intelligence,\nprobability calibration",
+      "pages": 6,
+      "author_institution": [
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation",
+        "The Aerospace Corporation"
+      ],
+      "abstract": [
+        "Automatic modulation classification is a challenging problem with multiple\napplications including cognitive radio and signals intelligence. Most of the\nexisting efforts to solve this problem are only applicable when the signal to\nnoise ratio (SNR) is high and/or long observations of the signal are available.\nRecent work has focused on applying shallow and deep machine learning (ML) to\nthis problem. In this paper, we present an exploration of such deep learning and\nensemble learning techniques that was used to win the Army Rapid Capability\nOffice (RCO) 2018 Signal Classification Challenge. An expert feature extraction\nand shallow learning approach is discussed in a simultaneous publication. We\nevaluated multiple state-of-the-art deep learning network architectures and\nadapted them to work in the RF signal domain instead of the\nimage/computer-vision domain. The best deep learning methods were merged with\nthe best expert feature extraction and shallow learning methods using ensemble\nlearning. Finally, the ensemble classifier was calibrated to obtain marginal\ngains. The methods discussed are capable of correctly classifying waveforms at\n-10 dB SNR with over 63\\% accuracy and signals at +10 dB SNR with over 95\\%\naccuracy from an Army RCO provided training set."
+      ],
+      "copyright_holder": "The Aerospace Corporation",
+      "paper_id": "aero_nn_vila",
+      "doi": "10.25080/Majora-7ddc1dd1-003",
+      "author_institution_map": {
+        "Alex Utter": [
+          "The Aerospace Corporation"
+        ],
+        "Andres Vila": [
+          "The Aerospace Corporation"
+        ],
+        "Donna Branchevsky": [
+          "The Aerospace Corporation"
+        ],
+        "Sebastian Olsen": [
+          "The Aerospace Corporation"
+        ],
+        "Kyle Logue": [
+          "The Aerospace Corporation"
+        ],
+        "Eugene Grayver": [
+          "The Aerospace Corporation"
+        ],
+        "Esteban Valles": [
+          "The Aerospace Corporation"
+        ],
+        "Darren Semmen": [
+          "The Aerospace Corporation"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Andres Vila",
+        "Donna Branchevsky",
+        "Kyle Logue",
+        "Sebastian Olsen",
+        "Esteban Valles",
+        "Darren Semmen",
+        "Alex Utter",
+        "Eugene Grayver"
+      ],
+      "author_email": [
+        "andres.i.vilacasado@aero.org",
+        "donna.branchevsky@aero.org",
+        "kyle.logue@aero.org",
+        "sebastian.olsen@aero.org",
+        "esteban.l.valles@aero.org",
+        "darren.l.semmen@aero.org",
+        "alexander.c.utter@aero.org",
+        "eugene.grayver@aero.org"
+      ],
+      "bibliography": "",
+      "page": {
+        "start": 21,
+        "stop": 26
+      },
+      "title": "Deep and Ensemble Learning to Win the Army RCO AI Signal Classification Challenge"
+    },
+    {
+      "authors": "Bradley D. Dice, Vyas Ramasubramani, Eric S. Harper, Matthew P. Spellings, Joshua A. Anderson, Sharon C. Glotzer",
+      "keywords": "molecular dynamics, analysis, particle simulation, particle system, computational physics, computational chemistry",
+      "pages": 7,
+      "bibliography": "paper",
+      "copyright_holder": "Bradley D. Dice et al.",
+      "paper_id": "bradley_dice",
+      "title": "Analyzing Particle Systems for Machine Learning and Data Visualization with freud",
+      "doi": "10.25080/Majora-7ddc1dd1-004",
+      "author_institution_map": {
+        "Sharon C. Glotzer": [
+          "Department of Physics, University of Michigan, Ann Arbor",
+          "Department of Chemical Engineering, University of Michigan, Ann Arbor",
+          "Department of Materials Science and Engineering, University of Michigan, Ann Arbor",
+          "Biointerfaces Institute, University of Michigan, Ann Arbor"
+        ],
+        "Vyas Ramasubramani": [
+          "Department of Chemical Engineering, University of Michigan, Ann Arbor"
+        ],
+        "Eric S. Harper": [
+          "Department of Materials Science \\& Engineering, University of Michigan, Ann Arbor"
+        ],
+        "Matthew P. Spellings": [
+          "Department of Chemical Engineering, University of Michigan, Ann Arbor"
+        ],
+        "Joshua A. Anderson": [
+          "Department of Chemical Engineering, University of Michigan, Ann Arbor"
+        ],
+        "Bradley D. Dice": [
+          "Department of Physics, University of Michigan, Ann Arbor"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Bradley D. Dice",
+        "Vyas Ramasubramani",
+        "Eric S. Harper",
+        "Matthew P. Spellings",
+        "Joshua A. Anderson",
+        "Sharon C. Glotzer"
+      ],
+      "author_email": [
+        "bdice@umich.edu",
+        "vramasub@umich.edu",
+        "harperic@umich.edu",
+        "mspells@umich.edu",
+        "joaander@umich.edu",
+        "sglotzer@umich.edu"
+      ],
+      "author_institution": [
+        "Department of Physics, University of Michigan, Ann Arbor",
+        "Department of Chemical Engineering, University of Michigan, Ann Arbor",
+        "Department of Materials Science \\& Engineering, University of Michigan, Ann Arbor",
+        "Department of Chemical Engineering, University of Michigan, Ann Arbor",
+        "Department of Chemical Engineering, University of Michigan, Ann Arbor",
+        "Department of Physics, University of Michigan, Ann Arbor",
+        "Department of Chemical Engineering, University of Michigan, Ann Arbor",
+        "Department of Materials Science and Engineering, University of Michigan, Ann Arbor",
+        "Biointerfaces Institute, University of Michigan, Ann Arbor"
+      ],
+      "page": {
+        "start": 27,
+        "stop": 33
+      },
+      "abstract": [
+        "The freud Python library analyzes particle data output from molecular dynamics simulations.\nThe library's design and its variety of high-performance methods make it a powerful tool for many modern applications.\nIn particular, freud can be used as part of the data generation pipeline for machine learning (ML) algorithms for analyzing particle simulations, and it can be easily integrated with various simulation visualization tools for simultaneous visualization and real-time analysis.\nHere, we present numerous examples both of using freud to analyze nano-scale particle systems by coupling traditional simulational analyses to machine learning libraries and of visualizing per-particle quantities calculated by freud analysis methods.\nWe include code and examples of this visualization, showing that in general the introduction of freud into existing ML and visualization workflows is smooth and unintrusive.\nWe demonstrate that among Python packages used in the computational molecular sciences, freud offers a unique set of analysis methods with efficient computations and seamless coupling into powerful data analysis pipelines."
+      ]
+    },
+    {
+      "authors": "Chiranth Siddappa, Mark Wickert",
+      "keywords": "complex,\nambiguity,\nfunction,\noverlay,\nverilog,\njinja,\njupyter,\nxilinx,\nfpga,\nzynq,\npynq,\nlinux",
+      "pages": 8,
+      "bibliography": "caf",
+      "copyright_holder": "Chiranth Siddappa et al.",
+      "paper_id": "chiranth_siddappa",
+      "title": "CAF Implementation on FPGA Using Python Tools",
+      "doi": "10.25080/Majora-7ddc1dd1-005",
+      "author_institution_map": {
+        "Chiranth Siddappa": [
+          "University of Colorado Colorado Springs"
+        ],
+        "Mark Wickert": [
+          "University of Colorado Colorado Springs"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Chiranth Siddappa",
+        "Mark Wickert"
+      ],
+      "author_email": [
+        "csiddapp@uccs.edu",
+        "mwickert@uccs.edu"
+      ],
+      "author_institution": [
+        "University of Colorado Colorado Springs",
+        "University of Colorado Colorado Springs"
+      ],
+      "page": {
+        "start": 34,
+        "stop": 41
+      },
+      "abstract": [
+        "The purpose of this project is to provide a real time geolocation solution by generating code for the complex ambiguity\nfunction\n(CAF) in a hardware description language (HDL) and the implementation on FPGA hardware.\nThe CAF has many practical applications, the more traditional being radar or sonar type systems.\nBy using scientific Python tools, this project provides a solution for testing signals and the ability to customize\nmodules to target multiple devices.\nThe processing for this implementation will be done on a PYNQ board designed by Xilinx.\nThe PYNQ board provides a Zynq chip which has both an ARM CPU and FPGA fabric.\nAll required mathematical operations for the CAF are returned to the user through Python classes which produce\nsynthesizable code in the Verilog HDL. The Python classes use Jinja templates integrated into the Verilog code to allow\nfor configuration changes that a user will need to change for investigation and simulation, development, and test.\nHelper methods are included in the package to help simulation of the HDL such as quantization, complex data reading and\nwriting, and methods to verify the data using quantized values."
+      ]
+    },
+    {
+      "authors": "Christian McDaniel, Shannon Quinn, PhD",
+      "keywords": "",
+      "pages": 8,
+      "bibliography": "bibli",
+      "copyright_holder": "Christian McDaniel et al.",
+      "paper_id": "christian_mcdaniel",
+      "title": "Developing a Graph Convolution-Based Analysis Pipeline for Multi-Modal Neuroimage Data: An Application to Parkinson's Disease",
+      "doi": "10.25080/Majora-7ddc1dd1-006",
+      "author_institution_map": {
+        "Shannon Quinn, PhD": [
+          "University of Georgia"
+        ],
+        "Christian McDaniel": [
+          "University of Georgia"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Christian McDaniel",
+        "Shannon Quinn, PhD"
+      ],
+      "author_email": [
+        "clm121@uga.edu",
+        "spq@uga.edu"
+      ],
+      "author_institution": [
+        "University of Georgia",
+        "University of Georgia"
+      ],
+      "page": {
+        "start": 42,
+        "stop": 49
+      },
+      "abstract": [
+        "Parkinson's disease (PD) is a highly prevalent neurodegenerative condition originating in subcortical areas of the brain and resulting in progressively worsening motor, cognitive, and psychiatric (e.g., depression) symptoms. Neuroimage data is an attractive research tool given the neurophysiological origins of the disease. Despite insights potentially available in magnetic resonance imaging (MRI) data, developing sound analytical techniques for this data has proven difficult. Principally, multiple image modalities are needed to compile the most accurate view possible; the process of incorporating multiple image modalities into a single holistic model is both poorly defined and extremely challenging. In this paper, we address these issues through the proposition of a novel graph-based convolutional neural network (GCN) architecture and present an end-to-end pipeline for preprocessing, formatting, and analyzing multimodal neuroimage data. We employ our pipeline on data downloaded from the Parkinson's Progression Markers Initiative (PPMI) database. Our GCN model outperforms baseline models, and uniquely allows for direct interpretation of its results."
+      ]
+    },
+    {
+      "authors": "Eric J. Ma, Zachary Barry, Sam Zuckerman, Zachary Sailer",
+      "keywords": "data engineering, data science, data cleaning",
+      "pages": 4,
+      "bibliography": "bibliography",
+      "copyright_holder": "Eric J. Ma et al.",
+      "paper_id": "eric_ma",
+      "title": "pyjanitor: A Cleaner API for Cleaning Data",
+      "doi": "10.25080/Majora-7ddc1dd1-007",
+      "author_institution_map": {
+        "Sam Zuckerman": [],
+        "Zachary Barry": [
+          "Novartis Institutes for Biomedical Research"
+        ],
+        "Zachary Sailer": [
+          "Jupyter Project"
+        ],
+        "Eric J. Ma": [
+          "Novartis Institutes for Biomedical Research"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Eric J. Ma",
+        "Zachary Barry",
+        "Sam Zuckerman",
+        "Zachary Sailer"
+      ],
+      "author_email": [
+        "ericmajinglong@gmail.com",
+        "zateam@gmail.com",
+        "sam.p.zuckerman@gmail.com",
+        "zachsailer@gmail.com"
+      ],
+      "author_institution": [
+        "Novartis Institutes for Biomedical Research",
+        "Novartis Institutes for Biomedical Research",
+        "Jupyter Project"
+      ],
+      "page": {
+        "start": 50,
+        "stop": 53
+      },
+      "abstract": [
+        "The pandas library has become the de facto library\nfor data wrangling in the Python programming language.\nHowever, inconsistencies in the pandas  application programming interface (API),\nwhile idiomatic due to historical use,\nprevent use of expressive,\nfluent programming idioms that enable self-documenting pandas code.\nHere, we introduce pyjanitor,\nan open source Python package that extends the pandas API with such idioms.\nWe describe its design and implementation of the package,\nprovide usage examples from a variety of domains,\nand discuss the ways that the pyjanitor project has enabled\nthe inclusion of first-time contributors to open source projects."
+      ]
+    },
+    {
+      "authors": "Geoffrey M. Poore",
+      "keywords": "reproducibility, dynamic report generation, literate programming, Python,\nPandoc, Project Jupyter",
+      "pages": 8,
+      "bibliography": "poore",
+      "copyright_holder": "Geoffrey M. Poore.",
+      "paper_id": "geoffrey_poore",
+      "title": "Codebraid: Live Code in Pandoc Markdown",
+      "doi": "10.25080/Majora-7ddc1dd1-008",
+      "author_institution_map": {
+        "Geoffrey M. Poore": [
+          "Union University"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Geoffrey M. Poore"
+      ],
+      "author_email": [
+        "gpoore@uu.edu"
+      ],
+      "author_institution": [
+        "Union University"
+      ],
+      "page": {
+        "start": 54,
+        "stop": 61
+      },
+      "abstract": [
+        "Codebraid executes code blocks and inline code in Pandoc Markdown documents\nas part of the document build process.  Code can be executed with a\nbuilt-in system or Jupyter kernels.  Either way, a single document can\ninvolve multiple programming languages, as well as multiple independent\nsessions or processes per language.  Because Codebraid only uses standard\nPandoc Markdown syntax, Pandoc handles all Markdown parsing and format\nconversions.  In the final output document produced by Pandoc, a code chunk\ncan be replaced by a display of any combination of its original Markdown\nsource, its code, the stdout or stderr resulting from execution, or rich\noutput in the case of Jupyter kernels.  There is also support for\nprogrammatically copying code or output to other parts of a document."
+      ]
+    },
+    {
+      "authors": "Jasmine Otto, Angus Forbes, Jan Verschelde",
+      "keywords": "",
+      "pages": 7,
+      "author_institution": [
+        "University of California, Santa Cruz",
+        "University of California, Santa Cruz",
+        "University of Illinois at Chicago"
+      ],
+      "abstract": [
+        "The solutions of a system of polynomials in several variables are often    needed, e.g.: in the design of mechanical systems, and    in phase-space analyses of nonlinear biological dynamics.    Reliable, accurate, and comprehensive numerical solutions are available    through PHCpack, a FOSS package for solving polynomial systems with   homotopy continuation.",
+        "This paper explores new developments in phcpy, a scripting interface for PHCpack, over the past five years. For instance, phcpy is now available online through a JupyterHub server featuring Python2, Python3, and SageMath kernels. As small systems are solved in real-time by phcpy, they are suitable for interactive exploration through the notebook interface. Meanwhile, phcpy supports GPU parallelization, improving the speed and quality of solutions to much larger polynomial systems. From various model design and analysis problems in STEM, certain classes of polynomial system frequently arise, to which phcpy is well-suited."
+      ],
+      "copyright_holder": "Jasmine Otto et al.",
+      "paper_id": "jan_verschelde",
+      "doi": "10.25080/Majora-7ddc1dd1-009",
+      "author_institution_map": {
+        "Jasmine Otto": [
+          "University of California, Santa Cruz"
+        ],
+        "Jan Verschelde": [
+          "University of Illinois at Chicago"
+        ],
+        "Angus Forbes": [
+          "University of California, Santa Cruz"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Jasmine Otto",
+        "Angus Forbes",
+        "Jan Verschelde"
+      ],
+      "author_email": [
+        "jtotto@ucsc.edu",
+        "angus@ucsc.edu",
+        "jan@math.uic.edu"
+      ],
+      "bibliography": "",
+      "page": {
+        "start": 62,
+        "stop": 68
+      },
+      "title": "Solving Polynomial Systems with phcpy"
+    },
+    {
+      "authors": "Laurie A. Stephey, Rollin C. Thomas, Stephen J. Bailey",
+      "keywords": "NumPy, SciPy, Numba, JIT compile, spectroscopy, HPC, MPI, Dask",
+      "pages": 8,
+      "bibliography": "scipybib",
+      "copyright_holder": "Laurie A. Stephey et al.",
+      "paper_id": "laurie_stephey",
+      "title": "Optimizing Python-Based Spectroscopic Data Processing on NERSC Supercomputers",
+      "doi": "10.25080/Majora-7ddc1dd1-00a",
+      "author_institution_map": {
+        "Laurie A. Stephey": [
+          "NERSC"
+        ],
+        "Stephen J. Bailey": [
+          "LBL"
+        ],
+        "Rollin C. Thomas": [
+          "NERSC"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Laurie A. Stephey",
+        "Rollin C. Thomas",
+        "Stephen J. Bailey"
+      ],
+      "author_email": [
+        "lastephey@lbl.gov",
+        "rcthomas@lbl.gov",
+        "stephenbailey@lbl.gov"
+      ],
+      "author_institution": [
+        "NERSC",
+        "NERSC",
+        "LBL"
+      ],
+      "page": {
+        "start": 69,
+        "stop": 76
+      },
+      "abstract": [
+        "We present a case study of optimizing a Python-based cosmology data processing\npipeline designed to run in parallel on thousands of cores using supercomputers\nat the National Energy Research Scientific Computing Center (NERSC).",
+        "The goal of the Dark Energy Spectroscopic Instrument (DESI) experiment is to\nbetter understand dark energy by making the most detailed 3D map of the\nuniverse to date. Over a five-year period starting this year (2019), around\n1000 CCD frames per night (30 per exposure) will be read out from the\ninstrument and transferred to NERSC for processing and analysis on the Cori and\nPerlmutter supercomputers in near-real time. This fast turnaround helps DESI\nmonitor survey progress and update the next night's observing schedule.",
+        "The DESI spectroscopic pipeline for processing these data is written almost\nexclusively in Python. Using Python allows DESI scientists to write\nvery readable and maintainable scientific code in a relatively short amount of\ntime, which is important due to limited DESI developer resources. However, the\ndrawback is that Python can be substantially slower than more traditional high\nperformance computing languages like C, C++, and Fortran.",
+        "The goal of this work is to improve the performance of DESI's\nspectroscopic data processing pipeline at NERSC while satisfying their productivity requirement that\nthe software remain in Python. Within this space we have obtained specific (per node-hour) throughput\nimprovements of over 5x and 6x on the Cori Haswell and Knights Landing partitions,\nrespectively. Several profiling techniques were used to determine potential\nareas for improvement including Python's cProfile and line\\_profiler packages,\nand other tools like Intel VTune and Tau. Once we identified expensive kernels,\nwe used the following techniques: 1) JIT-compiling hotspots using Numba\nand 2) restructuring the code to lessen the impact of calling expensive functions.\nAdditionally, we seriously considered substituting MPI parallelism for Dask, a more\nflexible and robust alternative, but have found that once a code has been designed\nwith MPI in mind, it is non-trivial to transition it to another kind of parallelism.\nWe will also show initial considerations for transitioning DESI spectroscopic\nextraction to GPUs (coming in the next NERSC system, Perlmutter, in 2020)."
+      ]
+    },
+    {
+      "authors": "Mark Wickert",
+      "keywords": "Head-related impulse response (HRIR), Head-related transfer function (HRTF), binaural hearing,\nvirtual reality, audiology, hearing assistive devices (HAD),",
+      "pages": 8,
+      "author_institution": [
+        "University of Colorado Colorado Springs"
+      ],
+      "abstract": [
+        "This paper describes the development of a 3D audio simulator for use in cognitive hearing science\nstudies and also for general 3D audio experimentation. The framework that the simulator is built\nupon is pyaudio\\_helper, which is a module of the package scikit-dsp-comm. The simulator runs in\na Jupyter notebook and makes use of Jupyter widgets for interactive control of audio source\npositioning in 3D space. 3D audio has application in virtual reality and in hearing assistive\ndevices (HAD) research and development. At its core the simulator uses digital filters to represent the\nsound pressure wave propagation path from the sound source to each ear canal of a human subject.\nDigital filters of 200 coefficients each for left and right ears are stored in a look-up table\nas a function of azimuth and elevation angles of the impinging sound's source."
+      ],
+      "copyright_holder": "Mark Wickert.",
+      "paper_id": "mark_wickert",
+      "doi": "10.25080/Majora-7ddc1dd1-00b",
+      "author_institution_map": {
+        "Mark Wickert": [
+          "University of Colorado Colorado Springs"
+        ]
+      },
+      "video": "http://www.youtube.com/watch?v=dhRUe-gz690",
+      "author": [
+        "Mark Wickert"
+      ],
+      "author_email": [
+        "mwickert@uccs.edu"
+      ],
+      "bibliography": "",
+      "page": {
+        "start": 77,
+        "stop": 84
+      },
+      "title": "A Real-Time 3D Audio Simulator for Cognitive Hearing Science"
+    },
+    {
+      "authors": "Nadia Tahiri, Bogdan Mazoure, Vladimir Makarenkov",
+      "keywords": "Machine Learning, Prediction, Long short-term memory, Convolutional Neural Network, Gradient Tree Boosting, , Python, Sklearn, Tensorflow",
+      "pages": 8,
+      "author_institution": [
+        "Département d’Informatique, Université du Québec à Montréal, Case postale 8888, Succursale Centre-ville, H3C 3P8 Montréal, Canada",
+        "Montreal Institute for Learning Algorithms (MILA) and McGill University,Montréal, Canada",
+        "Département d’Informatique, Université du Québec à Montréal, Case postale 8888, Succursale Centre-ville, H3C 3P8 Montréal, Canada"
+      ],
+      "abstract": [
+        "A grocery list is an integral part of the shopping experience of many consumers. Several mobile retail studies of grocery apps indicate that potential customers place the highest priority on features that help them to create and manage personalized shopping lists.\nFirst, we propose a new machine learning model written in Python 3 that predicts which grocery products the consumer will buy again or will try to buy for the first time, and in which store(s) the purchase will be made.\nSecond, we introduce a smart shopping template to provide consumers with a personalized weekly shopping list based on their shopping history and known preferences.\nAs the explanatory variables, we used available grocery shopping history, weekly product promotion information for a given region, as well as the product price statistics."
+      ],
+      "copyright_holder": "Nadia Tahiri et al.",
+      "paper_id": "nadia_tahiri",
+      "doi": "10.25080/Majora-7ddc1dd1-00c",
+      "author_institution_map": {
+        "Bogdan Mazoure": [
+          "Montreal Institute for Learning Algorithms (MILA) and McGill University,Montréal, Canada"
+        ],
+        "Vladimir Makarenkov": [
+          "Département d’Informatique, Université du Québec à Montréal, Case postale 8888, Succursale Centre-ville, H3C 3P8 Montréal, Canada"
+        ],
+        "Nadia Tahiri": [
+          "Département d’Informatique, Université du Québec à Montréal, Case postale 8888, Succursale Centre-ville, H3C 3P8 Montréal, Canada"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Nadia Tahiri",
+        "Bogdan Mazoure",
+        "Vladimir Makarenkov"
+      ],
+      "author_email": [
+        "tahiri.nadia@courrier.uqam.ca",
+        "bogdan.mazoure@mail.mcgill.ca",
+        "vladimir.makarenkov@uqam.ca"
+      ],
+      "bibliography": "",
+      "page": {
+        "start": 85,
+        "stop": 92
+      },
+      "title": "An intelligent shopping list based on the application of partitioning and machine learning algorithms"
+    },
+    {
+      "authors": "Paul R. Miles, Ralph C. Smith",
+      "keywords": "Markov Chain Monte Carlo (MCMC), Delayed Rejection Adaptive Metropolis (DRAM), Parameter Estimation, Bayesian Inference",
+      "pages": 8,
+      "bibliography": "mybib",
+      "copyright_holder": "Paul R. Miles et al.",
+      "paper_id": "paul_miles",
+      "title": "Parameter Estimation Using the Python Package pymcmcstat",
+      "doi": "10.25080/Majora-7ddc1dd1-00d",
+      "author_institution_map": {
+        "Paul R. Miles": [
+          "Department of Mathematics, North Carolina State University, Raleigh, NC 27695"
+        ],
+        "Ralph C. Smith": [
+          "Department of Mathematics, North Carolina State University, Raleigh, NC 27695"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Paul R. Miles",
+        "Ralph C. Smith"
+      ],
+      "author_email": [
+        "prmiles@ncsu.edu",
+        "rsmith@ncsu.edu"
+      ],
+      "author_institution": [
+        "Department of Mathematics, North Carolina State University, Raleigh, NC 27695",
+        "Department of Mathematics, North Carolina State University, Raleigh, NC 27695"
+      ],
+      "page": {
+        "start": 93,
+        "stop": 100
+      },
+      "abstract": [
+        "A Bayesian approach to solving inverse problems provides insight regarding model limitations as well as the underlying model and observation uncertainty.  In this paper we introduce pymcmcstat, which provides a wide variety of tools for estimating unknown parameter distributions.  For scientists and engineers familiar with least-squares optimization, this package provides a similar interface from which to expand their analysis to a Bayesian framework.  This package has been utilized in a wide array of scientific and engineering problems, including radiation source localization and constitutive model development of smart material systems."
+      ]
+    },
+    {
+      "authors": "Edward Raff, Joe Aurelio, Charles Nicholas",
+      "keywords": "compression, complex data, machine learning",
+      "pages": 6,
+      "bibliography": "Bib",
+      "copyright_holder": "Edward Raff et al.",
+      "paper_id": "pylzjd",
+      "title": "PyLZJD: An Easy to Use Tool for Machine Learning",
+      "doi": "10.25080/Majora-7ddc1dd1-00e",
+      "author_institution_map": {
+        "Joe Aurelio": [
+          "University of Maryland, Baltimore County",
+          "Booz Allen Hamilton"
+        ],
+        "Edward Raff": [
+          "Booz Allen Hamilton",
+          "University of Maryland, Baltimore County"
+        ],
+        "Charles Nicholas": [
+          "University of Maryland, Baltimore County"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Edward Raff",
+        "Joe Aurelio",
+        "Charles Nicholas"
+      ],
+      "author_email": [
+        "raff\\_edward@bah.com",
+        "jaurelio@umbc.edu",
+        "nicholas@umbc.edu"
+      ],
+      "author_institution": [
+        "Booz Allen Hamilton",
+        "University of Maryland, Baltimore County",
+        "University of Maryland, Baltimore County",
+        "Booz Allen Hamilton",
+        "University of Maryland, Baltimore County"
+      ],
+      "page": {
+        "start": 101,
+        "stop": 106
+      },
+      "abstract": [
+        "As Machine Learning (ML) becomes more widely known and popular, so too does the desire for new users from other backgrounds to apply ML techniques to their own domains. A difficult prerequisite that often confounds new users is the feature creation and engineering process. This is especially true when users attempt to apply ML to domains that have not historically received attention from the ML community (e.g., outside of text, images, and audio). The Lempel Ziv Jaccard Distance (LZJD) is a compression based technique that can be used for many machine learning tasks. Because of its compression background, users do not need to specify any feature extraction, making it easy to apply to new domains. We introduce PyLZJD, a library that implements LZJD in a manner meant to be easy to use and apply for novice practitioners. We will discuss the intuition and high-level mechanics behind LZJD, followed by examples of how to use it on problems of disparate data types."
+      ]
+    },
+    {
+      "authors": "Rajeswari Sivakumar, Shannon Quinn",
+      "keywords": "tensor decomposition, brain imaging, diffusion tensor image, Parkinsons disease",
+      "pages": 4,
+      "author_institution": [
+        "University of Georgia",
+        "University of Georgia"
+      ],
+      "abstract": [
+        "Parkinson’s disease (PD) affects over 6.2 million people around the world.\nDespite its prevalence, there is still no cure, and diagnostic methods are\nextremely subjective,  relying on observation of physical motor symptoms\nand response to treatment protocols. Other neurodegenerative diseases can\nmanifest similar motor symptoms and often too much neuronal damage has\noccurred before motor symptoms can be observed. The goal of our study is\nto examine  diffusion tensor images (DTI) from Parkinson’s and control\npatients through linear dynamical systems and tensor decomposition methods\nto generate features for training classification models. Diffusion tensor\nimaging emphasizes the spread and density of white matter in the brain.\nWe will reduce the dimensionality of these images to allow us to\nfocus on the key features that differentiate PD and control patients.\nWe show through our experiments that these approaches can result in\ngood classification accuracy (90\\%), and indicate this avenue of\nresearch has a promising future."
+      ],
+      "copyright_holder": "Rajeswari Sivakumar et al.",
+      "paper_id": "rajeswari_sivakumar",
+      "doi": "10.25080/Majora-7ddc1dd1-00f",
+      "author_institution_map": {
+        "Rajeswari Sivakumar": [
+          "University of Georgia"
+        ],
+        "Shannon Quinn": [
+          "University of Georgia"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Rajeswari Sivakumar",
+        "Shannon Quinn"
+      ],
+      "author_email": [
+        "rajeswari.a.sivakumar@gmail.com",
+        "spq@cs.uga.edu"
+      ],
+      "bibliography": "",
+      "page": {
+        "start": 107,
+        "stop": 110
+      },
+      "title": "Parkinson's Classification and Feature Extraction from Diffusion Tensor Images"
+    },
+    {
+      "authors": "Robert Jackson, Scott Collis, Timothy Lang, Corey Potvin, Todd Munson",
+      "keywords": "wind, retrieval, hurricane, tornado, radar",
+      "pages": 7,
+      "bibliography": "mybib",
+      "copyright_holder": "Robert Jackson et al.",
+      "paper_id": "robert_jackson",
+      "title": "PyDDA: A new Pythonic Wind Retrieval Package",
+      "doi": "10.25080/Majora-7ddc1dd1-010",
+      "author_institution_map": {
+        "Todd Munson": [
+          "Argonne National Laboratory, Argonne, IL, USA"
+        ],
+        "Corey Potvin": [
+          "NOAA/OAR National Severe Storms Laboratory, Norman, OK, USA",
+          "School of Meteorology, University of Oklahoma, Norman, OK, USA"
+        ],
+        "Timothy Lang": [
+          "NASA Marshall Space Flight Center, Huntsville, AL, USA"
+        ],
+        "Scott Collis": [
+          "Argonne National Laboratory, Argonne, IL, USA"
+        ],
+        "Robert Jackson": [
+          "Argonne National Laboratory, Argonne, IL, USA"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Robert Jackson",
+        "Scott Collis",
+        "Timothy Lang",
+        "Corey Potvin",
+        "Todd Munson"
+      ],
+      "author_email": [
+        "rjackson@anl.gov",
+        "scollis@anl.gov",
+        "timothy.j.lang@nasa.gov",
+        "corey.potvin@noaa.gov",
+        "tmunson@anl.gov"
+      ],
+      "author_institution": [
+        "Argonne National Laboratory, Argonne, IL, USA",
+        "Argonne National Laboratory, Argonne, IL, USA",
+        "NASA Marshall Space Flight Center, Huntsville, AL, USA",
+        "NOAA/OAR National Severe Storms Laboratory, Norman, OK, USA",
+        "School of Meteorology, University of Oklahoma, Norman, OK, USA",
+        "Argonne National Laboratory, Argonne, IL, USA"
+      ],
+      "page": {
+        "start": 111,
+        "stop": 117
+      },
+      "abstract": [
+        "PyDDA is a new community framework aimed at wind retrievals that depends\nonly upon utilities in the SciPy ecosystem such as scipy, numpy, and dask.\nIt can support retrievals of winds using information from weather radar\nnetworks constrained by high resolution forecast models over grids that\ncover thousands of kilometers at kilometer-scale resolution.\nUnlike past wind retrieval packages, this package can be installed using\nanaconda for easy installation and, with a focus on ease of use can retrieve\nwinds from gridded radar and model data with just a few lines of code. The\npackage is currently available for download at https://github.com/openradar/PyDDA."
+      ]
+    },
+    {
+      "authors": "Scott Sievert, Tom Augspurger, Matthew Rocklin",
+      "keywords": "distributed computation, hyperparameter optimization, machine learning",
+      "pages": 8,
+      "bibliography": "refs",
+      "copyright_holder": "Scott Sievert et al.",
+      "paper_id": "scott_sievert",
+      "title": "Better and faster hyperparameter optimization with Dask",
+      "doi": "10.25080/Majora-7ddc1dd1-011",
+      "author_institution_map": {
+        "Scott Sievert": [
+          "University of Wisconsin–Madison",
+          "Relevant work performed while interning for Anaconda, Inc."
+        ],
+        "Matthew Rocklin": [
+          "NVIDIA",
+          "Relevant work performed while employed for Anaconda, Inc."
+        ],
+        "Tom Augspurger": [
+          "Anaconda, Inc."
+        ]
+      },
+      "video": "",
+      "author": [
+        "Scott Sievert",
+        "Tom Augspurger",
+        "Matthew Rocklin"
+      ],
+      "author_email": [
+        "scott@stsievert.com",
+        "taugspurger@anaconda.com",
+        "mrocklin@gmail.com"
+      ],
+      "author_institution": [
+        "University of Wisconsin–Madison",
+        "Relevant work performed while interning for Anaconda, Inc.",
+        "Anaconda, Inc.",
+        "NVIDIA",
+        "Relevant work performed while employed for Anaconda, Inc."
+      ],
+      "page": {
+        "start": 118,
+        "stop": 125
+      },
+      "abstract": [
+        "Nearly every machine learning model requires hyperparameters, parameters\nthat the user must specify before training begins and influence model\nperformance. Finding the optimal set of hyperparameters is often a time-\nand resource-consuming process.  A recent breakthrough hyperparameter\noptimization algorithm, Hyperband finds high performing hyperparameters\nwith minimal training via a principled early stopping scheme for random\nhyperparameter selection li2016hyperband. This paper will provide\nan intuitive introduction to Hyperband and explain the implementation in\nDask, a Python library that scales Python to larger datasets and more\ncomputational resources. The implementation makes adjustments to the\nHyperband algorithm to exploit Dask's capabilities and parallel processing.\nIn experiments, the Dask implementation of Hyperband rapidly finds high\nperforming hyperparameters for deep learning models."
+      ]
+    },
+    {
+      "authors": "Shammamah Hossain",
+      "keywords": "visualization, bioinformatics, sequence analysis, Dash",
+      "pages": 8,
+      "author_institution": [
+        "Plotly, Inc., 118 - 5555 Avenue de Gaspe, Montreal QC\nH2T 2A3"
+      ],
+      "abstract": [
+        "Plotly's Dash is a library that empowers data scientists to create\ninteractive web applications declaratively in Python. Dash Bio is a\nbioinformatics-oriented suite of components that are compatible\nwith Dash. Visualizations of data that are often found in the field\nof bioinformatics can now be integrated into Dash applications. We\npresent the Dash Bio suite of components and parts of an auxiliary\nlibrary that contains tools that parse files from common\nbioinformatics databases."
+      ],
+      "copyright_holder": "Shammamah Hossain.",
+      "paper_id": "shammamah_hossain",
+      "doi": "10.25080/Majora-7ddc1dd1-012",
+      "author_institution_map": {
+        "Shammamah Hossain": [
+          "Plotly, Inc., 118 - 5555 Avenue de Gaspe, Montreal QC\nH2T 2A3"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Shammamah Hossain"
+      ],
+      "author_email": [
+        "shammamah@plot.ly"
+      ],
+      "bibliography": "",
+      "page": {
+        "start": 126,
+        "stop": 133
+      },
+      "title": "Visualization of Bioinformatics Data with Dash Bio"
+    },
+    {
+      "authors": "Shujie Fan, Max Linke, Ioannis Paraskevakos, Richard J. Gowers, Michael Gecht, Oliver Beckstein",
+      "keywords": "Molecular Dynamics Simulations, High Performance Computing, Python, Dask, MDAnalysis",
+      "pages": 9,
+      "bibliography": "pmda",
+      "copyright_holder": "Shujie Fan et al.",
+      "paper_id": "shujie_fan",
+      "title": "PMDA - Parallel Molecular Dynamics Analysis",
+      "doi": "10.25080/Majora-7ddc1dd1-013",
+      "author_institution_map": {
+        "Richard J. Gowers": [
+          "University of New Hampshire",
+          "present address: NextMove Software Ltd."
+        ],
+        "Oliver Beckstein": [
+          "Arizona State University"
+        ],
+        "Max Linke": [
+          "Max Planck Institute of Biophysics"
+        ],
+        "Ioannis Paraskevakos": [
+          "Rutgers University"
+        ],
+        "Michael Gecht": [
+          "Max Planck Institute of Biophysics"
+        ],
+        "Shujie Fan": [
+          "Arizona State University"
+        ]
+      },
+      "video": "",
+      "author": [
+        "Shujie Fan",
+        "Max Linke",
+        "Ioannis Paraskevakos",
+        "Richard J. Gowers",
+        "Michael Gecht",
+        "Oliver Beckstein"
+      ],
+      "author_email": [
+        "sfan19@asu.edu",
+        "max.linke88@gmail.com",
+        "i.paraskev@rutgers.edu",
+        "richardjgowers@gmail.com",
+        "michael.gecht@biophys.mpg.de",
+        "obeckste@asu.edu"
+      ],
+      "author_institution": [
+        "Arizona State University",
+        "Max Planck Institute of Biophysics",
+        "Rutgers University",
+        "University of New Hampshire",
+        "present address: NextMove Software Ltd.",
+        "Max Planck Institute of Biophysics",
+        "Arizona State University"
+      ],
+      "page": {
+        "start": 134,
+        "stop": 142
+      },
+      "abstract": [
+        "MDAnalysis is an object-oriented Python library to analyze trajectories from molecular dynamics (MD) simulations in many popular formats.\nWith the development of highly optimized MD software packages on high performance computing (HPC) resources, the size of simulation trajectories is growing up to many terabytes in size.\nHowever efficient usage of multicore architecture is a challenge for MDAnalysis, which does not yet provide a standard interface for parallel analysis.\nTo address the challenge, we developed PMDA, a Python library that builds upon MDAnalysis to provide parallel analysis algorithms.\nPMDA parallelizes common analysis algorithms in MDAnalysis through a task-based approach with the Dask library.\nWe implement a simple split-apply-combine scheme for parallel trajectory analysis.\nThe trajectory is split into blocks, analysis is performed separately and in parallel on each block (\\textquotedbl{}apply\\textquotedbl{}),\nthen results from each block are gathered and combined.\nPMDA allows one to perform parallel trajectory analysis with pre-defined analysis tasks.\nIn addition, it provides a common interface that makes it easy to create user-defined parallel analysis modules.\nPMDA supports all schedulers in Dask, and one can run analysis in a distributed fashion on HPC machines, ad-hoc clusters, a single multi-core workstation or a laptop.\nWe tested the performance of PMDA on single node and multiple nodes on a national supercomputer.\nThe results show that parallelization improves the performance of trajectory analysis and, depending on the analysis task, can cut down time to solution from hours to minutes.\nAlthough still in alpha stage, it is already used on resources ranging from multi-core laptops to XSEDE supercomputers to speed up analysis of molecular dynamics trajectories.\nPMDA is available as open source under the GNU General Public License, version 2 and can be easily installed via the pip and conda package managers."
+      ]
+    }
+  ]
+}
